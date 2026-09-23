@@ -1,0 +1,13 @@
+CARA GANTI FOTO / NAMA (GAMPANG):
+1. Siapkan foto kamu misal foto.jpg
+2. Copy foto.jpg ke folder public/ (sejajar file ini)
+3. Buka file lib/cv-data.ts baris 15
+   ganti: photo: "/foto.jpg"
+4. Untuk NAMA: buka baris 8, ganti name: "Nama Kamu"
+5. Save (Ctrl+S) -> refresh browser
+
+Contoh lib/cv-data.ts:
+  name: "Andi Saputra"
+  photo: "/foto.jpg"
+
+Jika mau pakai foto internet, ganti jadi link https://...
