@@ -26,7 +26,7 @@ export const profile = {
 
   // DESKRIPSI HERO — ketertarikan teknologi & pengembangan sistem
   about:
-    "Lulusan Sistem Informasi yang tertarik pada teknologi dan pengembangan sistem — berfokus pada membangun solusi digital yang fungsional, terstruktur, dan berdampak. Menggabungkan kemampuan analisis sistem, pengelolaan data, dan komunikasi untuk menciptakan pengalaman pengguna yang optimal.",
+    "Lulusan Sistem Informasi yang tertarik pada teknologi dan pengembangan sistem berfokus pada membangun solusi digital yang fungsional, terstruktur, dan berdampak. Menggabungkan kemampuan analisis sistem, pengelolaan data, dan komunikasi untuk menciptakan pengalaman pengguna yang optimal.",
 
   // STATUS — true = hijau Available, false = abu Busy
   available: true,
@@ -55,6 +55,7 @@ export const skills = [
   { name: "UX Research", level: 80, category: "Desain", color: "accent" as const, desc: "Riset pengguna untuk memahami kebutuhan dan perilaku." },
   { name: "TypeScript", level: 75, category: "Frontend", color: "teal" as const, desc: "Penulisan kode yang aman dan terprediksi dengan typing." },
   { name: "Supabase / Backend", level: 70, category: "Backend", color: "accent" as const, desc: "Pengelolaan data dan backend yang terstruktur." },
+  { name: "Pengolahan Data", level: 85, category: "Data", color: "teal" as const, desc: "Mengolah dan menyajikan data untuk kebutuhan sistem." },
 ];
 
 // --- PENDIDIKAN ---
@@ -67,9 +68,9 @@ export const education = [
   },
   {
     school: "SMK MA'ARIF TERPADU CICALENGKA",
-    major: "JTK",
+    major: "TKJ",
     period: "2019 — 2022",
-    grade: "Nilai Akhir 91",
+    grade: "Nilai Akhir 81/91",
   },
 ];
 
@@ -83,39 +84,21 @@ export const experiences = [
     desc: "Membangun komunikasi aktif dengan berbagai karakter pelanggan, menangani pelayanan.",
     tags: ["Komunikasi", "Pelayanan",],
   },
-  {
-    role: "Membuat Aplikasi Penjualan",
-    company: "Zafirah Collection",
-    period: "2024",
-    location: "Sumedang",
-    desc: "Mengelola pencatatan transaksi harian, menyusun laporan Keluar masuk barang dan memastikan pengelolaan data terstruktur.",
-    tags: ["Administrasi", "Laporan", "Data"],
-  },
-  {
-    role: "Membuat Aplikasi Pengarsipan",
-    company: "Desa Nanjung mekar",
-    period: "2026",
-    location: "Bandung Rancaekek",
-    desc: "Mengelola surat masuk dan keluar",
-    tags: ["Administrasi", "Laporan", "Data"],
-  },
 ];
 
 // --- PROJECTS ---
 export const projects = [
   {
-    title: "CV Portfolio Futuristik — Next.js",
+    title: "Membuat Aplikasi Pengarsipan — Next.js",
     period: "2026",
-    desc: "Website portfolio developer modern dark mode dengan blue/red glow, smooth scroll dan 1 halaman vertikal. Dibangun Next.js 16 + Tailwind v4.",
-    link: "#",
-    tags: ["Next.js", "Tailwind", "Dark UI"],
+    desc: "Aplikasi pengarsipan surat dan dokumen berbasis web.",
+    tags: ["Next.js", "Tailwind", "Supabase"],
   },
   {
-    title: "Sistem Administrasi Retail",
+    title: "Sistem Informasi Penjualan — Next.js",
     period: "2024",
-    desc: "Aplikasi pencatatan transaksi harian dan laporan keuangan terstruktur untuk retail — fokus pada akurasi data.",
-    link: "#",
-    tags: ["Administrasi", "Data", "Laporan"],
+    desc: "Aplikasi untuk mengelola transaksi penjualan dan laporan.",
+    tags: ["Next.js", "Penjualan", "Laporan"],
   },
 ];
 
